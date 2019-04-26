@@ -1,0 +1,14 @@
+C:\Users\hj89wt\STUDIA\KATALON\APTWM\APTWM\obj\Debug\netcoreapp2.1\APTWM.csprojAssemblyReference.cache
+C:\Users\hj89wt\STUDIA\KATALON\APTWM\APTWM\obj\Debug\netcoreapp2.1\APTWM.csproj.CoreCompileInputs.cache
+C:\Users\hj89wt\STUDIA\KATALON\APTWM\APTWM\obj\Debug\netcoreapp2.1\APTWM.AssemblyInfoInputs.cache
+C:\Users\hj89wt\STUDIA\KATALON\APTWM\APTWM\obj\Debug\netcoreapp2.1\APTWM.AssemblyInfo.cs
+C:\Users\hj89wt\STUDIA\KATALON\APTWM\APTWM\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\hj89wt\STUDIA\KATALON\APTWM\APTWM\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\hj89wt\STUDIA\KATALON\APTWM\APTWM\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\hj89wt\STUDIA\KATALON\APTWM\APTWM\bin\Debug\netcoreapp2.1\APTWM.deps.json
+C:\Users\hj89wt\STUDIA\KATALON\APTWM\APTWM\bin\Debug\netcoreapp2.1\APTWM.runtimeconfig.json
+C:\Users\hj89wt\STUDIA\KATALON\APTWM\APTWM\bin\Debug\netcoreapp2.1\APTWM.runtimeconfig.dev.json
+C:\Users\hj89wt\STUDIA\KATALON\APTWM\APTWM\bin\Debug\netcoreapp2.1\APTWM.dll
+C:\Users\hj89wt\STUDIA\KATALON\APTWM\APTWM\bin\Debug\netcoreapp2.1\APTWM.pdb
+C:\Users\hj89wt\STUDIA\KATALON\APTWM\APTWM\obj\Debug\netcoreapp2.1\APTWM.dll
+C:\Users\hj89wt\STUDIA\KATALON\APTWM\APTWM\obj\Debug\netcoreapp2.1\APTWM.pdb
