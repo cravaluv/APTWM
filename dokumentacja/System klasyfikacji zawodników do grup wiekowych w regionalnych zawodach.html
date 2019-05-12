@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+	<title>Systemu klasyfikacji zawodników do grup wiekowych w regionalnych zawodach</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">TestCase01</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://lamp.ii.us.edu.pl/~mtdyd/zawody/<datalist><option>https://lamp.ii.us.edu.pl/~mtdyd/zawody/</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=inputEmail3<datalist><option>id=inputEmail3</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Imię'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Aleksandra Kowol zostal zakwalifikowany do kategorii Dorosly'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/preceding::input[2]</option><option>//input[@id='inputEmail3']</option><option>//div[@id='imie']/div[2]/input</option><option>//input</option><option>css=#inputEmail3</option></datalist></td><td>Jan</td>
+</tr>
+<tr><td>type</td><td>id=inputPassword3<datalist><option>id=inputPassword3</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Imię'])[1]/following::input[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/preceding::input[1]</option><option>//input[@id='inputPassword3']</option><option>//div[@id='nazwisko']/div[2]/input</option><option>//div[2]/div[2]/input</option><option>css=#inputPassword3</option></datalist></td><td>Kowalski</td>
+</tr>
+<tr><td>type</td><td>id=dataU<datalist><option>id=dataU</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/following::input[2]</option><option>//input[@id='dataU']</option><option>//div[@id='data']/div[2]/input</option><option>//div[3]/div[2]/input</option><option>css=#dataU</option></datalist></td><td>16-12-2010</td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/following::label[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/following::label[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/following::label[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Wyślij'])[1]/preceding::label[2]</option><option>//form[@id='formma']/div[4]/div/div/label</option><option>//div[4]/div/div/label</option><option>css=div.checkbox &gt; label</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//button[@type='button']<datalist><option>//button[@type='button']</option><option>//form[@id='formma']/div[6]/div/button</option><option>//button</option><option>css=button.btn.btn-default</option></datalist></td><td></td>
+</tr>
+<tr><td>verifyText</td><td>id=returnSt<datalist><option>id=returnSt</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Imię'])[1]/preceding::div[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/preceding::div[4]</option><option>//div[@id='returnSt']</option><option>//h1/div</option><option>css=#returnSt</option></datalist></td><td>Jan Kowalski zostal zakwalifikowany do kategorii Brak kwalifikacji</td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">TestCase02</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://lamp.ii.us.edu.pl/~mtdyd/zawody/<datalist><option>https://lamp.ii.us.edu.pl/~mtdyd/zawody/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=inputEmail3<datalist><option>id=inputEmail3</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Imię'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sport to zdrowie !'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/preceding::input[2]</option><option>//input[@id='inputEmail3']</option><option>//div[@id='imie']/div[2]/input</option><option>//input</option><option>css=#inputEmail3</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=inputEmail3<datalist><option>id=inputEmail3</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Imię'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sport to zdrowie !'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/preceding::input[2]</option><option>//input[@id='inputEmail3']</option><option>//div[@id='imie']/div[2]/input</option><option>//input</option><option>css=#inputEmail3</option></datalist></td><td>Jan</td>
+</tr>
+<tr><td>type</td><td>id=inputPassword3<datalist><option>id=inputPassword3</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Imię'])[1]/following::input[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/preceding::input[1]</option><option>//input[@id='inputPassword3']</option><option>//div[@id='nazwisko']/div[2]/input</option><option>//div[2]/div[2]/input</option><option>css=#inputPassword3</option></datalist></td><td>Kowalski</td>
+</tr>
+<tr><td>type</td><td>id=dataU<datalist><option>id=dataU</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/following::input[2]</option><option>//input[@id='dataU']</option><option>//div[@id='data']/div[2]/input</option><option>//div[3]/div[2]/input</option><option>css=#dataU</option></datalist></td><td>16-12-1953</td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/following::label[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/following::label[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/following::label[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Wyślij'])[1]/preceding::label[2]</option><option>//form[@id='formma']/div[4]/div/div/label</option><option>//div[4]/div/div/label</option><option>css=div.checkbox &gt; label</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//button[@type='button']<datalist><option>//button[@type='button']</option><option>//form[@id='formma']/div[6]/div/button</option><option>//button</option><option>css=button.btn.btn-default</option></datalist></td><td></td>
+</tr>
+<tr><td>verifyText</td><td>id=returnSt<datalist><option>id=returnSt</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Imię'])[1]/preceding::div[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/preceding::div[4]</option><option>//div[@id='returnSt']</option><option>//h1/div</option><option>css=#returnSt</option></datalist></td><td>Jan Kowalski zostal zakwalifikowany do kategorii Blad danych</td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">TestCase03</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://lamp.ii.us.edu.pl/~mtdyd/zawody/<datalist><option>https://lamp.ii.us.edu.pl/~mtdyd/zawody/</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=inputEmail3<datalist><option>id=inputEmail3</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Imię'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sport to zdrowie !'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/preceding::input[2]</option><option>//input[@id='inputEmail3']</option><option>//div[@id='imie']/div[2]/input</option><option>//input</option><option>css=#inputEmail3</option></datalist></td><td>Jan</td>
+</tr>
+<tr><td>type</td><td>id=inputPassword3<datalist><option>id=inputPassword3</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Imię'])[1]/following::input[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/preceding::input[1]</option><option>//input[@id='inputPassword3']</option><option>//div[@id='nazwisko']/div[2]/input</option><option>//div[2]/div[2]/input</option><option>css=#inputPassword3</option></datalist></td><td>Kowalski</td>
+</tr>
+<tr><td>type</td><td>id=dataU<datalist><option>id=dataU</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/following::input[2]</option><option>//input[@id='dataU']</option><option>//div[@id='data']/div[2]/input</option><option>//div[3]/div[2]/input</option><option>css=#dataU</option></datalist></td><td>16-12-1953</td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/following::label[2]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/following::label[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Wyślij'])[1]/preceding::label[1]</option><option>//form[@id='formma']/div[5]/div/div/label</option><option>//div[5]/div/div/label</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//button[@type='button']<datalist><option>//button[@type='button']</option><option>//form[@id='formma']/div[6]/div/button</option><option>//button</option><option>css=button.btn.btn-default</option></datalist></td><td></td>
+</tr>
+<tr><td>verifyText</td><td>id=returnSt<datalist><option>id=returnSt</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Imię'])[1]/preceding::div[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/preceding::div[4]</option><option>//div[@id='returnSt']</option><option>//h1/div</option><option>css=#returnSt</option></datalist></td><td>Jan Kowalski zostal zakwalifikowany do kategorii Senior</td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">TestCase04</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://lamp.ii.us.edu.pl/~mtdyd/zawody/<datalist><option>https://lamp.ii.us.edu.pl/~mtdyd/zawody/</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=inputEmail3<datalist><option>id=inputEmail3</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Imię'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sport to zdrowie !'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/preceding::input[2]</option><option>//input[@id='inputEmail3']</option><option>//div[@id='imie']/div[2]/input</option><option>//input</option><option>css=#inputEmail3</option></datalist></td><td>Jan</td>
+</tr>
+<tr><td>type</td><td>id=inputPassword3<datalist><option>id=inputPassword3</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Imię'])[1]/following::input[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/preceding::input[1]</option><option>//input[@id='inputPassword3']</option><option>//div[@id='nazwisko']/div[2]/input</option><option>//div[2]/div[2]/input</option><option>css=#inputPassword3</option></datalist></td><td>Kowalski</td>
+</tr>
+<tr><td>type</td><td>id=dataU<datalist><option>id=dataU</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/following::input[2]</option><option>//input[@id='dataU']</option><option>//div[@id='data']/div[2]/input</option><option>//div[3]/div[2]/input</option><option>css=#dataU</option></datalist></td><td>16-12-1954</td>
+</tr>
+<tr><td>click</td><td>//button[@type='button']<datalist><option>//button[@type='button']</option><option>//form[@id='formma']/div[6]/div/button</option><option>//button</option><option>css=button.btn.btn-default</option></datalist></td><td></td>
+</tr>
+<tr><td>verifyText</td><td>id=returnSt<datalist><option>id=returnSt</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Imię'])[1]/preceding::div[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/preceding::div[4]</option><option>//div[@id='returnSt']</option><option>//h1/div</option><option>css=#returnSt</option></datalist></td><td>Jan Kowalski zostal zakwalifikowany do kategorii Dorosly</td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">TestCase05</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://lamp.ii.us.edu.pl/~mtdyd/zawody/<datalist><option>https://lamp.ii.us.edu.pl/~mtdyd/zawody/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=inputEmail3<datalist><option>id=inputEmail3</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Imię'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sport to zdrowie !'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/preceding::input[2]</option><option>//input[@id='inputEmail3']</option><option>//div[@id='imie']/div[2]/input</option><option>//input</option><option>css=#inputEmail3</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=inputEmail3<datalist><option>id=inputEmail3</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Imię'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sport to zdrowie !'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/preceding::input[2]</option><option>//input[@id='inputEmail3']</option><option>//div[@id='imie']/div[2]/input</option><option>//input</option><option>css=#inputEmail3</option></datalist></td><td>Jan</td>
+</tr>
+<tr><td>type</td><td>id=inputPassword3<datalist><option>id=inputPassword3</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Imię'])[1]/following::input[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/preceding::input[1]</option><option>//input[@id='inputPassword3']</option><option>//div[@id='nazwisko']/div[2]/input</option><option>//div[2]/div[2]/input</option><option>css=#inputPassword3</option></datalist></td><td>Kowalski</td>
+</tr>
+<tr><td>type</td><td>id=dataU<datalist><option>id=dataU</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/following::input[2]</option><option>//input[@id='dataU']</option><option>//div[@id='data']/div[2]/input</option><option>//div[3]/div[2]/input</option><option>css=#dataU</option></datalist></td><td>16-12-2008</td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/following::label[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/following::label[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/following::label[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Wyślij'])[1]/preceding::label[2]</option><option>//form[@id='formma']/div[4]/div/div/label</option><option>//div[4]/div/div/label</option><option>css=div.checkbox &gt; label</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/following::label[2]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/following::label[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Wyślij'])[1]/preceding::label[1]</option><option>//form[@id='formma']/div[5]/div/div/label</option><option>//div[5]/div/div/label</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//button[@type='button']<datalist><option>//button[@type='button']</option><option>//form[@id='formma']/div[6]/div/button</option><option>//button</option><option>css=button.btn.btn-default</option></datalist></td><td></td>
+</tr>
+<tr><td>verifyText</td><td>id=returnSt<datalist><option>id=returnSt</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Imię'])[1]/preceding::div[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/preceding::div[4]</option><option>//div[@id='returnSt']</option><option>//h1/div</option><option>css=#returnSt</option></datalist></td><td>Jan Kowalski zostal zakwalifikowany do kategorii Skrzat</td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">TestCase06</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://lamp.ii.us.edu.pl/~mtdyd/zawody/<datalist><option>https://lamp.ii.us.edu.pl/~mtdyd/zawody/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=inputEmail3<datalist><option>id=inputEmail3</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Imię'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Jan Kowalski zostal zakwalifikowany do kategorii Mlodzik'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/preceding::input[2]</option><option>//input[@id='inputEmail3']</option><option>//div[@id='imie']/div[2]/input</option><option>//input</option><option>css=#inputEmail3</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=inputEmail3<datalist><option>id=inputEmail3</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Imię'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Jan Kowalski zostal zakwalifikowany do kategorii Mlodzik'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/preceding::input[2]</option><option>//input[@id='inputEmail3']</option><option>//div[@id='imie']/div[2]/input</option><option>//input</option><option>css=#inputEmail3</option></datalist></td><td>Jan</td>
+</tr>
+<tr><td>type</td><td>id=inputPassword3<datalist><option>id=inputPassword3</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Imię'])[1]/following::input[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/preceding::input[1]</option><option>//input[@id='inputPassword3']</option><option>//div[@id='nazwisko']/div[2]/input</option><option>//div[2]/div[2]/input</option><option>css=#inputPassword3</option></datalist></td><td>Kowalski</td>
+</tr>
+<tr><td>type</td><td>id=dataU<datalist><option>id=dataU</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/following::input[2]</option><option>//input[@id='dataU']</option><option>//div[@id='data']/div[2]/input</option><option>//div[3]/div[2]/input</option><option>css=#dataU</option></datalist></td><td>16-12-2006</td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/following::label[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/following::label[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/following::label[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Wyślij'])[1]/preceding::label[2]</option><option>//form[@id='formma']/div[4]/div/div/label</option><option>//div[4]/div/div/label</option><option>css=div.checkbox &gt; label</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/following::label[2]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/following::label[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Wyślij'])[1]/preceding::label[1]</option><option>//form[@id='formma']/div[5]/div/div/label</option><option>//div[5]/div/div/label</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//button[@type='button']<datalist><option>//button[@type='button']</option><option>//form[@id='formma']/div[6]/div/button</option><option>//button</option><option>css=button.btn.btn-default</option></datalist></td><td></td>
+</tr>
+<tr><td>verifyText</td><td>id=returnSt<datalist><option>id=returnSt</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Imię'])[1]/preceding::div[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/preceding::div[4]</option><option>//div[@id='returnSt']</option><option>//h1/div</option><option>css=#returnSt</option></datalist></td><td>Jan Kowalski zostal zakwalifikowany do kategorii Mlodzik</td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">TestCase07</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://lamp.ii.us.edu.pl/~mtdyd/zawody/<datalist><option>https://lamp.ii.us.edu.pl/~mtdyd/zawody/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=inputEmail3<datalist><option>id=inputEmail3</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Imię'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sport to zdrowie !'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/preceding::input[2]</option><option>//input[@id='inputEmail3']</option><option>//div[@id='imie']/div[2]/input</option><option>//input</option><option>css=#inputEmail3</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=inputEmail3<datalist><option>id=inputEmail3</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Imię'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sport to zdrowie !'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/preceding::input[2]</option><option>//input[@id='inputEmail3']</option><option>//div[@id='imie']/div[2]/input</option><option>//input</option><option>css=#inputEmail3</option></datalist></td><td>Jan</td>
+</tr>
+<tr><td>type</td><td>id=inputPassword3<datalist><option>id=inputPassword3</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Imię'])[1]/following::input[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/preceding::input[1]</option><option>//input[@id='inputPassword3']</option><option>//div[@id='nazwisko']/div[2]/input</option><option>//div[2]/div[2]/input</option><option>css=#inputPassword3</option></datalist></td><td>Kowalski</td>
+</tr>
+<tr><td>type</td><td>id=dataU<datalist><option>id=dataU</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/following::input[2]</option><option>//input[@id='dataU']</option><option>//div[@id='data']/div[2]/input</option><option>//div[3]/div[2]/input</option><option>css=#dataU</option></datalist></td><td>16-12-2004</td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/following::label[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/following::label[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/following::label[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Wyślij'])[1]/preceding::label[2]</option><option>//form[@id='formma']/div[4]/div/div/label</option><option>//div[4]/div/div/label</option><option>css=div.checkbox &gt; label</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/following::label[2]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/following::label[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Wyślij'])[1]/preceding::label[1]</option><option>//form[@id='formma']/div[5]/div/div/label</option><option>//div[5]/div/div/label</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//button[@type='button']<datalist><option>//button[@type='button']</option><option>//form[@id='formma']/div[6]/div/button</option><option>//button</option><option>css=button.btn.btn-default</option></datalist></td><td></td>
+</tr>
+<tr><td>verifyText</td><td>id=returnSt<datalist><option>id=returnSt</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Imię'])[1]/preceding::div[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/preceding::div[4]</option><option>//div[@id='returnSt']</option><option>//h1/div</option><option>css=#returnSt</option></datalist></td><td>Jan Kowalski zostal zakwalifikowany do kategorii Junior</td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">TestCase08</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://lamp.ii.us.edu.pl/~mtdyd/zawody/<datalist><option>https://lamp.ii.us.edu.pl/~mtdyd/zawody/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=inputEmail3<datalist><option>id=inputEmail3</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Imię'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sport to zdrowie !'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/preceding::input[2]</option><option>//input[@id='inputEmail3']</option><option>//div[@id='imie']/div[2]/input</option><option>//input</option><option>css=#inputEmail3</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=inputEmail3<datalist><option>id=inputEmail3</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Imię'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sport to zdrowie !'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/preceding::input[2]</option><option>//input[@id='inputEmail3']</option><option>//div[@id='imie']/div[2]/input</option><option>//input</option><option>css=#inputEmail3</option></datalist></td><td>Jan</td>
+</tr>
+<tr><td>type</td><td>id=inputPassword3<datalist><option>id=inputPassword3</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Imię'])[1]/following::input[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/preceding::input[1]</option><option>//input[@id='inputPassword3']</option><option>//div[@id='nazwisko']/div[2]/input</option><option>//div[2]/div[2]/input</option><option>css=#inputPassword3</option></datalist></td><td>Kowalski</td>
+</tr>
+<tr><td>type</td><td>id=dataU<datalist><option>id=dataU</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data urodzenia'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/following::input[2]</option><option>//input[@id='dataU']</option><option>//div[@id='data']/div[2]/input</option><option>//div[3]/div[2]/input</option><option>css=#dataU</option></datalist></td><td>16-12-2000</td>
+</tr>
+<tr><td>click</td><td>//button[@type='button']<datalist><option>//button[@type='button']</option><option>//form[@id='formma']/div[6]/div/button</option><option>//button</option><option>css=button.btn.btn-default</option></datalist></td><td></td>
+</tr>
+<tr><td>verifyText</td><td>id=returnSt<datalist><option>id=returnSt</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Imię'])[1]/preceding::div[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nazwisko'])[1]/preceding::div[4]</option><option>//div[@id='returnSt']</option><option>//h1/div</option><option>css=#returnSt</option></datalist></td><td>Jan Kowalski zostal zakwalifikowany do kategorii Dorosly</td>
+</tr>
+<tr><td>click</td><td>//body<datalist><option>//body</option><option>css=body</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Untitled Test Case</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://el.us.edu.pl/wiinom/mod/workshop/view.php?id=28136<datalist><option>https://el.us.edu.pl/wiinom/mod/workshop/view.php?id=28136</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=yui_3_17_2_1_1556259804583_56<datalist><option>id=yui_3_17_2_1_1556259804583_56</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Zamknięty'])[1]/following::div[5]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Faza ewaluacji ocen'])[1]/following::div[6]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Jeszcze nie przesłałeś swojej pracy'])[1]/preceding::div[3]</option><option>//div[@id='yui_3_17_2_1_1556259804583_56']</option><option>//div[@id='workshop-viewlet-instructauthors_inner']/div</option><option>//div/div[2]/div/div[2]/div</option><option>css=#yui_3_17_2_1_1556259804583_56</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Zamknięty'])[1]/following::strong[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Zamknięty'])[1]/following::strong[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Faza ewaluacji ocen'])[1]/following::strong[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Jeszcze nie przesłałeś swojej pracy'])[1]/preceding::strong[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Rozpocznij swoją pracę nad zadaniem'])[1]/preceding::strong[1]</option><option>//p[@id='yui_3_17_2_1_1556259804583_54']/strong</option><option>//strong</option><option>css=strong</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=yui_3_17_2_1_1556259804583_55<datalist><option>id=yui_3_17_2_1_1556259804583_55</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Zamknięty'])[1]/following::div[6]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Faza ewaluacji ocen'])[1]/following::div[7]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Jeszcze nie przesłałeś swojej pracy'])[1]/preceding::div[2]</option><option>//div[@id='yui_3_17_2_1_1556259804583_55']</option><option>//div[@id='yui_3_17_2_1_1556259804583_56']/div</option><option>//div/div[2]/div/div[2]/div/div</option><option>css=#yui_3_17_2_1_1556259804583_55</option></datalist></td><td></td>
+</tr>
+<tr><td>doubleClick</td><td>id=yui_3_17_2_1_1556259804583_55<datalist><option>id=yui_3_17_2_1_1556259804583_55</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Zamknięty'])[1]/following::div[6]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Faza ewaluacji ocen'])[1]/following::div[7]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Jeszcze nie przesłałeś swojej pracy'])[1]/preceding::div[2]</option><option>//div[@id='yui_3_17_2_1_1556259804583_55']</option><option>//div[@id='yui_3_17_2_1_1556259804583_56']/div</option><option>//div/div[2]/div/div[2]/div/div</option><option>css=#yui_3_17_2_1_1556259804583_55</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
